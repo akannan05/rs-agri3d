@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes/zed_imu_node" "/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes/zed_img_node" "TARGETS" "zed_imu_node" "zed_img_node" "DESTINATION" "lib/zed2i_nodes")

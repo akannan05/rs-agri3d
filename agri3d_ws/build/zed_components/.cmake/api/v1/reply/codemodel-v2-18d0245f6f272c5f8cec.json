@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c5de3e7f973321df3cad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_components",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_components_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_components_files-Release-3d5f63f560eafd937e7d.json",
+					"name" : "all_zed_components_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-2b749caeeda7081601dc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_camera_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_camera_component-Release-d6a9ac96dc80dc969253.json",
+					"name" : "zed_camera_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_camera_one_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_camera_one_component-Release-e1d241ace99de8db5b75.json",
+					"name" : "zed_camera_one_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_components_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_components_uninstall-Release-846cb2b2a545fba0cb27.json",
+					"name" : "zed_components_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_components",
+		"source" : "/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed-ros2-wrapper/zed_components"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

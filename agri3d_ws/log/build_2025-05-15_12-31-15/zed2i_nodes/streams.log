@@ -1,0 +1,54 @@
+[0.025s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes -- -j12 -l12
+[0.106s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.489s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.537s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.551s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.596s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.698s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.703s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.843s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.962s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.990s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.054s] -- Found image_transport: 5.1.6 (/opt/ros/jazzy/share/image_transport/cmake)
+[1.076s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.097s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.230s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.230s] -- Configured cppcheck include dirs: 
+[1.231s] -- Configured cppcheck exclude dirs and/or files: 
+[1.231s] -- Added test 'lint_cmake' to check CMake code style
+[1.233s] -- Added test 'uncrustify' to check C / C++ code style
+[1.233s] -- Configured uncrustify additional arguments: 
+[1.233s] -- Added test 'xmllint' to check XML markup files
+[1.235s] -- Configuring done (1.1s)
+[1.266s] -- Generating done (0.0s)
+[1.273s] -- Build files have been written to: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes
+[1.344s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o[0m
+[1.349s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o[0m
+[6.538s] [ 75%] [32m[1mLinking CXX executable zed_imu_node[0m
+[6.789s] [ 75%] Built target zed_imu_node
+[8.156s] [100%] [32m[1mLinking CXX executable zed_img_node[0m
+[8.622s] [100%] Built target zed_img_node
+[8.637s] Invoked command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes -- -j12 -l12
+[8.639s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes
+[8.650s] -- Install configuration: ""
+[8.650s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/lib/zed2i_nodes/zed_imu_node
+[8.651s] -- Set non-toolchain portion of runtime path of "/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/lib/zed2i_nodes/zed_imu_node" to ""
+[8.652s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/lib/zed2i_nodes/zed_img_node
+[8.653s] -- Set non-toolchain portion of runtime path of "/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/lib/zed2i_nodes/zed_img_node" to ""
+[8.653s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/ament_index/resource_index/package_run_dependencies/zed2i_nodes
+[8.654s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/ament_index/resource_index/parent_prefix_path/zed2i_nodes
+[8.654s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/environment/ament_prefix_path.sh
+[8.654s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/environment/ament_prefix_path.dsv
+[8.654s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/environment/path.sh
+[8.655s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/environment/path.dsv
+[8.655s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/local_setup.bash
+[8.655s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/local_setup.sh
+[8.655s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/local_setup.zsh
+[8.655s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/local_setup.dsv
+[8.656s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/package.dsv
+[8.656s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/ament_index/resource_index/packages/zed2i_nodes
+[8.656s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/cmake/zed2i_nodesConfig.cmake
+[8.656s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/cmake/zed2i_nodesConfig-version.cmake
+[8.656s] -- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/package.xml
+[8.658s] Invoked command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes

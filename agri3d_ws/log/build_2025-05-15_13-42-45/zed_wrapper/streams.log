@@ -1,0 +1,71 @@
+[0.019s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed-ros2-wrapper/zed_wrapper -DCMAKE_INSTALL_PREFIX=/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper
+[0.097s] -- The C compiler identification is GNU 13.3.0
+[0.185s] -- The CXX compiler identification is GNU 13.3.0
+[0.213s] -- Detecting C compiler ABI info
+[0.359s] -- Detecting C compiler ABI info - done
+[0.379s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.380s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.395s] -- Detecting CXX compiler ABI info
+[0.554s] -- Detecting CXX compiler ABI info - done
+[0.570s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.570s] -- Detecting CXX compile features
+[0.571s] -- Detecting CXX compile features - done
+[0.574s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.826s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.150s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.166s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.304s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.307s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.429s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.462s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.496s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.871s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.872s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.873s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.248s] -- Configuring done (2.2s)
+[2.253s] -- Generating done (0.0s)
+[2.257s] -- Build files have been written to: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_wrapper
+[2.272s] Invoked command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed-ros2-wrapper/zed_wrapper -DCMAKE_INSTALL_PREFIX=/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper
+[2.272s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_wrapper -- -j12 -l12
+[2.346s] Invoked command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_wrapper -- -j12 -l12
+[2.360s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_wrapper
+[2.372s] -- Install configuration: ""
+[2.372s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config
+[2.372s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config/common_stereo.yaml
+[2.372s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml
+[2.373s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config/zedxm.yaml
+[2.373s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config/zedx.yaml
+[2.373s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config/common_mono.yaml
+[2.373s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config/zedxone4k.yaml
+[2.373s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config/ffmpeg.yaml
+[2.373s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml
+[2.373s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config/virtual.yaml
+[2.374s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config/zedxonegs.yaml
+[2.374s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml
+[2.374s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml
+[2.374s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/urdf
+[2.374s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/urdf/include
+[2.374s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro
+[2.374s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro
+[2.375s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro
+[2.375s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/launch
+[2.375s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/launch/zed_camera.launch.py
+[2.375s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper
+[2.375s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper
+[2.375s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh
+[2.375s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv
+[2.375s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh
+[2.375s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv
+[2.375s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash
+[2.375s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh
+[2.376s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh
+[2.376s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv
+[2.376s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/package.dsv
+[2.376s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper
+[2.376s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+[2.376s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+[2.376s] -- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper/share/zed_wrapper/package.xml
+[2.378s] Invoked command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_wrapper

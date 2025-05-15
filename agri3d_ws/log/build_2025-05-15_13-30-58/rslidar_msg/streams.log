@@ -1,0 +1,36 @@
+[0.019s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/rslidar_msg -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/rslidar_msg
+[0.038s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.075s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.214s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.232s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.283s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.306s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.329s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.349s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.410s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.551s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.555s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.704s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.863s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.874s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.350s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.706s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.826s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.316s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.357s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.373s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.382s] -- Added test 'lint_cmake' to check CMake code style
+[2.385s] -- Added test 'xmllint' to check XML markup files
+[2.393s] -- Configuring done (2.4s)
+[2.493s] -- Generating done (0.1s)
+[2.521s] -- Build files have been written to: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg
+[2.538s] Invoked command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/rslidar_msg -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/rslidar_msg
+[2.540s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg -- -j12 -l12
+[2.628s] failed to create symbolic link '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg/ament_cmake_python/rslidar_msg/rslidar_msg' because existing path cannot be removed: Is a directory
+[2.629s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_rslidar_msg.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_rslidar_msg] Error 1
+[2.629s] gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_rslidar_msg.dir/all] Error 2
+[2.629s] gmake[1]: *** Waiting for unfinished jobs....
+[2.630s] [  2%] Built target rslidar_msg__rosidl_generator_type_description
+[2.632s] gmake: *** [Makefile:146: all] Error 2
+[2.636s] Invoked command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg -- -j12 -l12

@@ -92,7 +92,7 @@ zed_img_node_EXTERNAL_OBJECTS =
 
 zed_img_node: CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o
 zed_img_node: CMakeFiles/zed_img_node.dir/build.make
-zed_img_node: /home/akannan05/Desktop/zed-open-capture/build/libzed_open_capture.so
+zed_img_node: /usr/local/lib/libzed_open_capture.so
 zed_img_node: /opt/ros/jazzy/lib/x86_64-linux-gnu/libimage_transport.so
 zed_img_node: /opt/ros/jazzy/lib/libcv_bridge.so
 zed_img_node: /opt/ros/jazzy/lib/libmessage_filters.so

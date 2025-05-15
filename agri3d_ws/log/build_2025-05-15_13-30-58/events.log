@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.000234] (rslidar_msg) JobQueued: {'identifier': 'rslidar_msg', 'dependencies': OrderedDict()}
+[0.000384] (zed2i_nodes) JobQueued: {'identifier': 'zed2i_nodes', 'dependencies': OrderedDict()}
+[0.000421] (zed_components) JobQueued: {'identifier': 'zed_components', 'dependencies': OrderedDict()}
+[0.000450] (rslidar_sdk) JobQueued: {'identifier': 'rslidar_sdk', 'dependencies': OrderedDict({'rslidar_msg': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/rslidar_msg'})}
+[0.000486] (zed_wrapper) JobQueued: {'identifier': 'zed_wrapper', 'dependencies': OrderedDict({'zed_components': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_components'})}
+[0.000515] (zed_ros2) JobQueued: {'identifier': 'zed_ros2', 'dependencies': OrderedDict({'zed_components': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_components', 'zed_wrapper': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_wrapper'})}
+[0.000546] (zed_components) JobStarted: {'identifier': 'zed_components'}
+[0.009795] (rslidar_msg) JobStarted: {'identifier': 'rslidar_msg'}
+[0.013604] (zed2i_nodes) JobStarted: {'identifier': 'zed2i_nodes'}
+[0.019189] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'cmake'}
+[0.019872] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed-ros2-wrapper/zed_components', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_components'], 'cwd': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_components', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'akannan05', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/akannan05', 'OLDPWD': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2421', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'akannan05', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akannan05', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anirudh-ubuntu:@/tmp/.ICE-unix/2230,unix/anirudh-ubuntu:/tmp/.ICE-unix/2230', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e206b2b9_754b_4897_b472_223f5f213e50', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GWOY62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_components', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.023453] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'cmake'}
+[0.025296] (rslidar_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/rslidar_msg', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/rslidar_msg'], 'cwd': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'akannan05', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/akannan05', 'OLDPWD': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2421', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'akannan05', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akannan05', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anirudh-ubuntu:@/tmp/.ICE-unix/2230,unix/anirudh-ubuntu:/tmp/.ICE-unix/2230', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e206b2b9_754b_4897_b472_223f5f213e50', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GWOY62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.030325] (zed2i_nodes) JobProgress: {'identifier': 'zed2i_nodes', 'progress': 'cmake'}
+[0.032476] (zed2i_nodes) Command: {'cmd': ['/usr/bin/cmake', '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes'], 'cwd': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'akannan05', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/akannan05', 'OLDPWD': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2421', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'akannan05', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akannan05', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anirudh-ubuntu:@/tmp/.ICE-unix/2230,unix/anirudh-ubuntu:/tmp/.ICE-unix/2230', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e206b2b9_754b_4897_b472_223f5f213e50', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GWOY62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.048137] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.054112] (zed2i_nodes) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.085358] (rslidar_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.098953] (-) TimerEvent: {}
+[0.124497] (zed_components) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199207] (-) TimerEvent: {}
+[0.223846] (zed_components) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.224187] (rslidar_msg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.242710] (rslidar_msg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.248523] (zed_components) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.293201] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.299323] (-) TimerEvent: {}
+[0.316391] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.339632] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.359428] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.378898] (zed_components) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.393319] (zed_components) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.395207] (zed_components) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.395692] (zed_components) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.399426] (-) TimerEvent: {}
+[0.410875] (zed_components) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.419785] (rslidar_msg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.420974] (zed2i_nodes) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.431703] (zed2i_nodes) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.466120] (zed2i_nodes) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.476840] (zed2i_nodes) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.491343] (zed2i_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.499560] (-) TimerEvent: {}
+[0.509311] (zed2i_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.553639] (zed_components) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.561274] (rslidar_msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.565474] (rslidar_msg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.571787] (zed_components) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.572140] (zed_components) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.572713] (zed_components) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.578248] (zed_components) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[0.588498] (zed2i_nodes) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.590086] (zed2i_nodes) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599680] (-) TimerEvent: {}
+[0.700173] (-) TimerEvent: {}
+[0.714212] (rslidar_msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.720857] (zed_components) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[0.721402] (zed2i_nodes) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.723865] (zed_components) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800294] (-) TimerEvent: {}
+[0.851186] (zed2i_nodes) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.853474] (zed_components) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.855353] (zed_components) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.872714] (zed2i_nodes) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.873138] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.884539] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.900460] (-) TimerEvent: {}
+[0.904454] (zed_components) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[0.954592] (zed2i_nodes) StdoutLine: {'line': b'-- Found image_transport: 5.1.6 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[0.995778] (zed2i_nodes) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[1.000610] (-) TimerEvent: {}
+[1.028628] (zed2i_nodes) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.078513] (zed_components) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[1.079568] (zed_components) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  \n'}
+[1.080284] (zed_components) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/zed/zed-config.cmake:73 (find_package):\n'}
+[1.080547] (zed_components) StderrLine: {'line': b'  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake\n'}
+[1.080701] (zed_components) StderrLine: {'line': b'  --help-policy CMP0146" for policy details.  Use the cmake_policy command to\n'}
+[1.080841] (zed_components) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.080973] (zed_components) StderrLine: {'line': b'\n'}
+[1.081105] (zed_components) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.081255] (zed_components) StderrLine: {'line': b'  CMakeLists.txt:84 (find_package)\n'}
+[1.081396] (zed_components) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.081526] (zed_components) StderrLine: {'line': b'\x1b[0m\n'}
+[1.100760] (-) TimerEvent: {}
+[1.126099] (zed_components) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found suitable version "12.8", minimum required is "12") \n'}
+[1.127553] (zed_components) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/zed/zed-config.cmake:78 (exec_program):\n'}
+[1.127852] (zed_components) StderrLine: {'line': b'  Policy CMP0153 is not set: The exec_program command should not be called.\n'}
+[1.128016] (zed_components) StderrLine: {'line': b'  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy\n'}
+[1.128189] (zed_components) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.128376] (zed_components) StderrLine: {'line': b'\n'}
+[1.128547] (zed_components) StderrLine: {'line': b'  Use execute_process() instead.\n'}
+[1.128704] (zed_components) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.128871] (zed_components) StderrLine: {'line': b'  CMakeLists.txt:84 (find_package)\n'}
+[1.129017] (zed_components) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.129172] (zed_components) StderrLine: {'line': b'\x1b[0m\n'}
+[1.133493] (zed_components) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/zed/zed-config.cmake:79 (exec_program):\n'}
+[1.133769] (zed_components) StderrLine: {'line': b'  Policy CMP0153 is not set: The exec_program command should not be called.\n'}
+[1.133918] (zed_components) StderrLine: {'line': b'  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy\n'}
+[1.134056] (zed_components) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.134211] (zed_components) StderrLine: {'line': b'\n'}
+[1.134356] (zed_components) StderrLine: {'line': b'  Use execute_process() instead.\n'}
+[1.134490] (zed_components) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.134624] (zed_components) StderrLine: {'line': b'  CMakeLists.txt:84 (find_package)\n'}
+[1.134757] (zed_components) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.134893] (zed_components) StderrLine: {'line': b'\x1b[0m\n'}
+[1.138728] (zed_components) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/zed/zed-config.cmake:95 (exec_program):\n'}
+[1.139015] (zed_components) StderrLine: {'line': b'  Policy CMP0153 is not set: The exec_program command should not be called.\n'}
+[1.139175] (zed_components) StderrLine: {'line': b'  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy\n'}
+[1.139324] (zed_components) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.139457] (zed_components) StderrLine: {'line': b'\n'}
+[1.139588] (zed_components) StderrLine: {'line': b'  Use execute_process() instead.\n'}
+[1.139719] (zed_components) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.139851] (zed_components) StderrLine: {'line': b'  CMakeLists.txt:84 (find_package)\n'}
+[1.139982] (zed_components) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.140113] (zed_components) StderrLine: {'line': b'\x1b[0m\n'}
+[1.146046] (zed_components) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/zed/zed-config.cmake:115 (exec_program):\n'}
+[1.146350] (zed_components) StderrLine: {'line': b'  Policy CMP0153 is not set: The exec_program command should not be called.\n'}
+[1.146503] (zed_components) StderrLine: {'line': b'  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy\n'}
+[1.146640] (zed_components) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.146777] (zed_components) StderrLine: {'line': b'\n'}
+[1.146913] (zed_components) StderrLine: {'line': b'  Use execute_process() instead.\n'}
+[1.147048] (zed_components) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.147235] (zed_components) StderrLine: {'line': b'  CMakeLists.txt:84 (find_package)\n'}
+[1.147389] (zed_components) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.147524] (zed_components) StderrLine: {'line': b'\x1b[0m\n'}
+[1.169584] (zed2i_nodes) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.169961] (zed2i_nodes) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.170130] (zed2i_nodes) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.170644] (zed2i_nodes) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.171652] (zed2i_nodes) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.171836] (zed2i_nodes) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.172180] (zed2i_nodes) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.173995] (zed2i_nodes) StdoutLine: {'line': b'-- Configuring done (1.1s)\n'}
+[1.197467] (zed2i_nodes) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.200839] (-) TimerEvent: {}
+[1.204120] (zed2i_nodes) StdoutLine: {'line': b'-- Build files have been written to: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes\n'}
+[1.217643] (zed2i_nodes) CommandEnded: {'returncode': 0}
+[1.218593] (zed2i_nodes) JobProgress: {'identifier': 'zed2i_nodes', 'progress': 'build'}
+[1.219646] (zed2i_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes', '--', '-j12', '-l12'], 'cwd': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'akannan05', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/akannan05', 'OLDPWD': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2421', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'akannan05', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akannan05', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anirudh-ubuntu:@/tmp/.ICE-unix/2230,unix/anirudh-ubuntu:/tmp/.ICE-unix/2230', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e206b2b9_754b_4897_b472_223f5f213e50', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GWOY62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.300981] (-) TimerEvent: {}
+[1.322227] (zed2i_nodes) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o\x1b[0m\n'}
+[1.322592] (zed2i_nodes) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o\x1b[0m\n'}
+[1.344482] (zed_components) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:86 (exec_program):\n'}
+[1.344825] (zed_components) StderrLine: {'line': b'  Policy CMP0153 is not set: The exec_program command should not be called.\n'}
+[1.344978] (zed_components) StderrLine: {'line': b'  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy\n'}
+[1.345115] (zed_components) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.345274] (zed_components) StderrLine: {'line': b'\n'}
+[1.345411] (zed_components) StderrLine: {'line': b'  Use execute_process() instead.\n'}
+[1.345552] (zed_components) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.345727] (zed_components) StderrLine: {'line': b'\x1b[0m\n'}
+[1.349972] (zed_components) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:91 (find_package):\n'}
+[1.350286] (zed_components) StderrLine: {'line': b'  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake\n'}
+[1.350439] (zed_components) StderrLine: {'line': b'  --help-policy CMP0146" for policy details.  Use the cmake_policy command to\n'}
+[1.350575] (zed_components) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.350706] (zed_components) StderrLine: {'line': b'\n'}
+[1.350836] (zed_components) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.350966] (zed_components) StderrLine: {'line': b'\x1b[0m\n'}
+[1.360335] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.365011] (zed_components) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found version "12.8") \n'}
+[1.369781] (zed_components) StdoutLine: {'line': b'-- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)\n'}
+[1.401134] (-) TimerEvent: {}
+[1.501565] (-) TimerEvent: {}
+[1.601942] (-) TimerEvent: {}
+[1.608833] (zed_components) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.702052] (-) TimerEvent: {}
+[1.710564] (zed_components) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.716479] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.802198] (-) TimerEvent: {}
+[1.834043] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.836129] (rslidar_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.902305] (-) TimerEvent: {}
+[1.903934] (zed_components) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.920084] (zed_components) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.955102] (zed_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.997483] (zed_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.002432] (-) TimerEvent: {}
+[2.103142] (-) TimerEvent: {}
+[2.203520] (-) TimerEvent: {}
+[2.304230] (-) TimerEvent: {}
+[2.326183] (rslidar_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.367141] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.383388] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.391770] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.395015] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.402540] (zed_components) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.402926] (rslidar_msg) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.404306] (-) TimerEvent: {}
+[2.405510] (zed_components) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.503290] (rslidar_msg) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.504425] (-) TimerEvent: {}
+[2.530693] (rslidar_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg\n'}
+[2.533072] (zed_components) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.548404] (rslidar_msg) CommandEnded: {'returncode': 0}
+[2.549178] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'build'}
+[2.550235] (rslidar_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg', '--', '-j12', '-l12'], 'cwd': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'akannan05', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/akannan05', 'OLDPWD': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2421', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'akannan05', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akannan05', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anirudh-ubuntu:@/tmp/.ICE-unix/2230,unix/anirudh-ubuntu:/tmp/.ICE-unix/2230', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e206b2b9_754b_4897_b472_223f5f213e50', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GWOY62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.559919] (zed_components) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.604594] (-) TimerEvent: {}
+[2.604926] (zed_components) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.637734] (rslidar_msg) StderrLine: {'line': b"failed to create symbolic link '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg/ament_cmake_python/rslidar_msg/rslidar_msg' because existing path cannot be removed: Is a directory\n"}
+[2.638856] (rslidar_msg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_rslidar_msg.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_rslidar_msg] Error 1\n'}
+[2.639338] (rslidar_msg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_rslidar_msg.dir/all] Error 2\n'}
+[2.639513] (rslidar_msg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.640587] (rslidar_msg) StdoutLine: {'line': b'[  2%] Built target rslidar_msg__rosidl_generator_type_description\n'}
+[2.642636] (rslidar_msg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.645771] (rslidar_msg) CommandEnded: {'returncode': 2}
+[2.678735] (rslidar_msg) JobEnded: {'identifier': 'rslidar_msg', 'rc': 2}
+[2.704729] (-) TimerEvent: {}
+[2.805173] (-) TimerEvent: {}
+[2.905595] (-) TimerEvent: {}
+[3.006037] (-) TimerEvent: {}
+[3.106491] (-) TimerEvent: {}
+[3.206937] (-) TimerEvent: {}
+[3.307331] (-) TimerEvent: {}
+[3.363240] (zed_components) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[3.365533] (zed_components) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.365855] (zed_components) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.407470] (-) TimerEvent: {}
+[3.507876] (-) TimerEvent: {}
+[3.608257] (-) TimerEvent: {}
+[3.708665] (-) TimerEvent: {}
+[3.753133] (zed_components) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.808839] (-) TimerEvent: {}
+[3.837331] (zed_components) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.839338] (zed_components) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.840248] (zed_components) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed-ros2-wrapper/zed_components/src/include;/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed-ros2-wrapper/zed_components/src/tools/include\n'}
+[3.840478] (zed_components) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.841260] (zed_components) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.843028] (zed_components) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.843259] (zed_components) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.843809] (zed_components) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.849711] (zed_components) StdoutLine: {'line': b'-- Configuring done (3.8s)\n'}
+[3.901829] (zed_components) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.908967] (-) TimerEvent: {}
+[3.919765] (zed_components) StdoutLine: {'line': b'-- Build files have been written to: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_components\n'}
+[3.941099] (zed_components) JobEnded: {'identifier': 'zed_components', 'rc': 'SIGINT'}
+[4.009160] (-) TimerEvent: {}
+[4.109661] (-) TimerEvent: {}
+[4.210090] (-) TimerEvent: {}
+[4.310493] (-) TimerEvent: {}
+[4.410876] (-) TimerEvent: {}
+[4.511374] (-) TimerEvent: {}
+[4.611765] (-) TimerEvent: {}
+[4.712273] (-) TimerEvent: {}
+[4.812655] (-) TimerEvent: {}
+[4.913173] (-) TimerEvent: {}
+[5.013546] (-) TimerEvent: {}
+[5.113913] (-) TimerEvent: {}
+[5.214352] (-) TimerEvent: {}
+[5.314770] (-) TimerEvent: {}
+[5.415196] (-) TimerEvent: {}
+[5.515609] (-) TimerEvent: {}
+[5.616037] (-) TimerEvent: {}
+[5.716427] (-) TimerEvent: {}
+[5.816813] (-) TimerEvent: {}
+[5.917205] (-) TimerEvent: {}
+[6.017617] (-) TimerEvent: {}
+[6.117995] (-) TimerEvent: {}
+[6.218390] (-) TimerEvent: {}
+[6.318774] (-) TimerEvent: {}
+[6.419271] (-) TimerEvent: {}
+[6.519659] (-) TimerEvent: {}
+[6.620042] (-) TimerEvent: {}
+[6.720446] (-) TimerEvent: {}
+[6.820859] (-) TimerEvent: {}
+[6.921223] (-) TimerEvent: {}
+[7.021597] (-) TimerEvent: {}
+[7.121976] (-) TimerEvent: {}
+[7.222412] (-) TimerEvent: {}
+[7.322805] (-) TimerEvent: {}
+[7.423226] (-) TimerEvent: {}
+[7.523706] (-) TimerEvent: {}
+[7.624246] (-) TimerEvent: {}
+[7.724745] (-) TimerEvent: {}
+[7.825252] (-) TimerEvent: {}
+[7.925743] (-) TimerEvent: {}
+[8.026232] (-) TimerEvent: {}
+[8.126593] (-) TimerEvent: {}
+[8.227008] (-) TimerEvent: {}
+[8.327505] (-) TimerEvent: {}
+[8.428003] (-) TimerEvent: {}
+[8.528587] (-) TimerEvent: {}
+[8.629081] (-) TimerEvent: {}
+[8.690849] (zed2i_nodes) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable zed_imu_node\x1b[0m\n'}
+[8.729254] (-) TimerEvent: {}
+[8.829704] (-) TimerEvent: {}
+[8.891057] (zed2i_nodes) StdoutLine: {'line': b'[ 75%] Built target zed_imu_node\n'}
+[8.929828] (-) TimerEvent: {}
+[9.030265] (-) TimerEvent: {}
+[9.130682] (-) TimerEvent: {}
+[9.231141] (-) TimerEvent: {}
+[9.331552] (-) TimerEvent: {}
+[9.431915] (-) TimerEvent: {}
+[9.532311] (-) TimerEvent: {}
+[9.632718] (-) TimerEvent: {}
+[9.733125] (-) TimerEvent: {}
+[9.833506] (-) TimerEvent: {}
+[9.933880] (-) TimerEvent: {}
+[10.034232] (-) TimerEvent: {}
+[10.134650] (-) TimerEvent: {}
+[10.235055] (-) TimerEvent: {}
+[10.335458] (-) TimerEvent: {}
+[10.435904] (-) TimerEvent: {}
+[10.536349] (-) TimerEvent: {}
+[10.636693] (-) TimerEvent: {}
+[10.737098] (-) TimerEvent: {}
+[10.837429] (-) TimerEvent: {}
+[10.937709] (-) TimerEvent: {}
+[11.038087] (-) TimerEvent: {}
+[11.138577] (-) TimerEvent: {}
+[11.238934] (-) TimerEvent: {}
+[11.339295] (-) TimerEvent: {}
+[11.412706] (zed2i_nodes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable zed_img_node\x1b[0m\n'}
+[11.439428] (-) TimerEvent: {}
+[11.539929] (-) TimerEvent: {}
+[11.640446] (-) TimerEvent: {}
+[11.740870] (-) TimerEvent: {}
+[11.841314] (-) TimerEvent: {}
+[11.909671] (zed2i_nodes) StdoutLine: {'line': b'[100%] Built target zed_img_node\n'}
+[11.923241] (zed2i_nodes) JobEnded: {'identifier': 'zed2i_nodes', 'rc': 'SIGINT'}
+[11.934511] (rslidar_sdk) JobSkipped: {'identifier': 'rslidar_sdk'}
+[11.934603] (zed_wrapper) JobSkipped: {'identifier': 'zed_wrapper'}
+[11.934642] (zed_ros2) JobSkipped: {'identifier': 'zed_ros2'}
+[11.934679] (-) EventReactorShutdown: {}

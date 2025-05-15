@@ -1,0 +1,114 @@
+[0.022s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_components': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed_components
+[0.124s] -- The C compiler identification is GNU 13.3.0
+[0.224s] -- The CXX compiler identification is GNU 13.3.0
+[0.248s] -- Detecting C compiler ABI info
+[0.379s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.395s] -- Detecting C compile features
+[0.395s] -- Detecting C compile features - done
+[0.411s] -- Detecting CXX compiler ABI info
+[0.553s] -- Detecting CXX compiler ABI info - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.572s] -- Detecting CXX compile features
+[0.572s] -- Detecting CXX compile features - done
+[0.578s] -- Looking for sgemm_
+[0.721s] -- Looking for sgemm_ - not found
+[0.724s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.855s] -- Found Threads: TRUE  
+[0.904s] -- Looking for sgemm_
+[1.078s] -- Looking for sgemm_ - found
+[1.079s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[1.080s] [33mCMake Warning (dev) at /usr/local/zed/zed-config.cmake:73 (find_package):
+[1.080s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[1.080s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[1.080s]   set the policy and suppress this warning.
+[1.081s] 
+[1.081s] Call Stack (most recent call first):
+[1.081s]   CMakeLists.txt:84 (find_package)
+[1.081s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.081s] [0m
+[1.126s] -- Found CUDA: /usr/local/cuda (found suitable version "12.8", minimum required is "12") 
+[1.127s] [33mCMake Warning (dev) at /usr/local/zed/zed-config.cmake:78 (exec_program):
+[1.127s]   Policy CMP0153 is not set: The exec_program command should not be called.
+[1.128s]   Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+[1.128s]   command to set the policy and suppress this warning.
+[1.128s] 
+[1.128s]   Use execute_process() instead.
+[1.128s] Call Stack (most recent call first):
+[1.128s]   CMakeLists.txt:84 (find_package)
+[1.129s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.129s] [0m
+[1.133s] [33mCMake Warning (dev) at /usr/local/zed/zed-config.cmake:79 (exec_program):
+[1.133s]   Policy CMP0153 is not set: The exec_program command should not be called.
+[1.133s]   Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+[1.134s]   command to set the policy and suppress this warning.
+[1.134s] 
+[1.134s]   Use execute_process() instead.
+[1.134s] Call Stack (most recent call first):
+[1.134s]   CMakeLists.txt:84 (find_package)
+[1.134s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.134s] [0m
+[1.138s] [33mCMake Warning (dev) at /usr/local/zed/zed-config.cmake:95 (exec_program):
+[1.139s]   Policy CMP0153 is not set: The exec_program command should not be called.
+[1.139s]   Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+[1.139s]   command to set the policy and suppress this warning.
+[1.139s] 
+[1.139s]   Use execute_process() instead.
+[1.139s] Call Stack (most recent call first):
+[1.139s]   CMakeLists.txt:84 (find_package)
+[1.140s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.140s] [0m
+[1.146s] [33mCMake Warning (dev) at /usr/local/zed/zed-config.cmake:115 (exec_program):
+[1.146s]   Policy CMP0153 is not set: The exec_program command should not be called.
+[1.146s]   Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+[1.146s]   command to set the policy and suppress this warning.
+[1.146s] 
+[1.146s]   Use execute_process() instead.
+[1.147s] Call Stack (most recent call first):
+[1.147s]   CMakeLists.txt:84 (find_package)
+[1.147s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.147s] [0m
+[1.344s] [33mCMake Warning (dev) at CMakeLists.txt:86 (exec_program):
+[1.344s]   Policy CMP0153 is not set: The exec_program command should not be called.
+[1.345s]   Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+[1.345s]   command to set the policy and suppress this warning.
+[1.345s] 
+[1.345s]   Use execute_process() instead.
+[1.345s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.345s] [0m
+[1.350s] [33mCMake Warning (dev) at CMakeLists.txt:91 (find_package):
+[1.350s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[1.350s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[1.350s]   set the policy and suppress this warning.
+[1.350s] 
+[1.350s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.351s] [0m
+[1.365s] -- Found CUDA: /usr/local/cuda (found version "12.8") 
+[1.369s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.609s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.710s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.904s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.920s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.955s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.997s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.402s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.405s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.533s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.560s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.605s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.363s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.365s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.365s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.753s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.837s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.839s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.840s] -- Configured cppcheck include dirs: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed-ros2-wrapper/zed_components/src/include;/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed-ros2-wrapper/zed_components/src/tools/include
+[3.840s] -- Configured cppcheck exclude dirs and/or files: 
+[3.841s] -- Added test 'lint_cmake' to check CMake code style
+[3.843s] -- Added test 'uncrustify' to check C / C++ code style
+[3.843s] -- Configured uncrustify additional arguments: 
+[3.843s] -- Added test 'xmllint' to check XML markup files
+[3.849s] -- Configuring done (3.8s)
+[3.902s] -- Generating done (0.0s)
+[3.920s] -- Build files have been written to: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed_components

@@ -92,7 +92,7 @@ zed_imu_node_EXTERNAL_OBJECTS =
 
 zed_imu_node: CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o
 zed_imu_node: CMakeFiles/zed_imu_node.dir/build.make
-zed_imu_node: /home/akannan05/Desktop/zed-open-capture/build/libzed_open_capture.so
+zed_imu_node: /usr/local/lib/libzed_open_capture.so
 zed_imu_node: /opt/ros/jazzy/lib/librclcpp.so
 zed_imu_node: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 zed_imu_node: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so

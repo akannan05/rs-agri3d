@@ -17,6 +17,11 @@ find_package(cv_bridge REQUIRED)
 
 set(ZED_OC_PATH "$ENV{HOME}/Desktop/zed-open-capture") # set this to the directory where you have installed zed-oc
 
+find_library(ZED_OC_LIB
+    NAMES zed_open_capture
+    PATHS ${ZED_OC_PATH}/build
+)
+
 add_executable(zed_imu_node src/zed_imu_publisher.cpp)
 add_executable(zed_img_node src/zed_img_publisher.cpp)
 
@@ -25,7 +30,7 @@ target_include_directories(zed_imu_node PRIVATE
 )
 
 target_link_libraries(zed_imu_node
-    ${ZED_OC_PATH}/build/libzed_open_capture.so
+    ${ZED_OC_LIB}
 )
 
 target_include_directories(zed_img_node PRIVATE
@@ -33,7 +38,7 @@ target_include_directories(zed_img_node PRIVATE
 )
 
 target_link_libraries(zed_img_node
-    ${ZED_OC_PATH}/build/libzed_open_capture.so
+    ${ZED_OC_LIB}
 )
 
 ament_target_dependencies(zed_imu_node

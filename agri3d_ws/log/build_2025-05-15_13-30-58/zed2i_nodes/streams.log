@@ -1,0 +1,34 @@
+[0.020s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes
+[0.040s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.407s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.418s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.452s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.463s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.575s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.576s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.708s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.837s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.859s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.941s] -- Found image_transport: 5.1.6 (/opt/ros/jazzy/share/image_transport/cmake)
+[0.982s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.015s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.156s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.156s] -- Configured cppcheck include dirs: 
+[1.156s] -- Configured cppcheck exclude dirs and/or files: 
+[1.157s] -- Added test 'lint_cmake' to check CMake code style
+[1.158s] -- Added test 'uncrustify' to check C / C++ code style
+[1.158s] -- Configured uncrustify additional arguments: 
+[1.158s] -- Added test 'xmllint' to check XML markup files
+[1.160s] -- Configuring done (1.1s)
+[1.184s] -- Generating done (0.0s)
+[1.190s] -- Build files have been written to: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes
+[1.204s] Invoked command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes
+[1.206s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes -- -j12 -l12
+[1.308s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o[0m
+[1.309s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o[0m
+[8.677s] [ 75%] [32m[1mLinking CXX executable zed_imu_node[0m
+[8.877s] [ 75%] Built target zed_imu_node
+[11.399s] [100%] [32m[1mLinking CXX executable zed_img_node[0m
+[11.896s] [100%] Built target zed_img_node

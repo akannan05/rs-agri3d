@@ -6,5 +6,5 @@ C_DEFINES = -DROSIDL_TYPESUPPORT_INTROSPECTION_C_BUILDING_DLL_rslidar_msg -DROS_
 
 C_INCLUDES = -I/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg/rosidl_typesupport_introspection_c -I/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg/rosidl_generator_c -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c
 
-C_FLAGS = -std=gnu11 -fPIC -Wall
+C_FLAGS = -O3 -DNDEBUG -std=gnu11 -fPIC -Wall
 

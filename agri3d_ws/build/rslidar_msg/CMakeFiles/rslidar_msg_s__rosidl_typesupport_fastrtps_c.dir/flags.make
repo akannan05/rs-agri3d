@@ -6,5 +6,5 @@ C_DEFINES = -DFASTCDR_DYN_LINK -DROS_PACKAGE_NAME=\"rslidar_msg\" -Drslidar_msg_
 
 C_INCLUDES = -I/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg/rosidl_generator_c -I/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg/rosidl_generator_py -I/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rmw -isystem /usr/include/python3.12 -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_c
 
-C_FLAGS = -std=gnu99 -fPIC -Wall -Wextra
+C_FLAGS = -O3 -DNDEBUG -std=gnu99 -fPIC -Wall -Wextra
 
