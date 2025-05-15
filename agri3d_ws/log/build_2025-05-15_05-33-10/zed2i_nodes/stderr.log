@@ -1,0 +1,37 @@
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:[m[K In constructor ‘[01m[KZedStereoPublisher::[01;32m[KZedStereoPublisher[m[K()[m[K’:
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:24:49:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Ksl_oc::video::VideoCapture& sl_oc::video::VideoCapture::[01;32m[Koperator=[m[K(const sl_oc::video::VideoCapture&)[m[K’
+   24 |         cap_ = sl_oc::video::VideoCapture(params[01;31m[K)[m[K;
+      |                                                 [01;31m[K^[m[K
+In file included from [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:14[m[K:
+[01m[K/home/akannan05/Desktop/zed-open-capture/include/videocapture.hpp:64:20:[m[K [01;36m[Knote: [m[K‘[01m[Ksl_oc::video::VideoCapture& sl_oc::video::VideoCapture::[01;32m[Koperator=[m[K(const sl_oc::video::VideoCapture&)[m[K’ is implicitly deleted because the default definition would be ill-formed:
+   64 | class SL_OC_EXPORT [01;36m[KVideoCapture[m[K
+      |                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/akannan05/Desktop/zed-open-capture/include/videocapture.hpp:64:20:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kstd::mutex& std::mutex::[01;32m[Koperator=[m[K(const std::mutex&)[m[K’
+In file included from [01m[K/usr/include/c++/13/condition_variable:42[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:8[m[K:
+[01m[K/usr/include/c++/13/bits/std_mutex.h:108:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  108 |     mutex& [01;36m[Koperator[m[K=(const mutex&) = delete;
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/akannan05/Desktop/zed-open-capture/include/videocapture.hpp:64:20:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kstd::mutex& std::mutex::[01;32m[Koperator=[m[K(const std::mutex&)[m[K’
+   64 | class SL_OC_EXPORT [01;31m[KVideoCapture[m[K
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/std_mutex.h:108:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  108 |     mutex& [01;36m[Koperator[m[K=(const mutex&) = delete;
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/akannan05/Desktop/zed-open-capture/include/videocapture.hpp:64:20:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kstd::thread& std::thread::[01;32m[Koperator=[m[K(const std::thread&)[m[K’
+   64 | class SL_OC_EXPORT [01;31m[KVideoCapture[m[K
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/future:51[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/usr/include/c++/13/bits/std_thread.h:181:13:[m[K [01;36m[Knote: [m[Kdeclared here
+  181 |     thread& [01;36m[Koperator[m[K=(const thread&) = delete;
+      |             [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/zed_img_node.dir/build.make:76: CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zed_img_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

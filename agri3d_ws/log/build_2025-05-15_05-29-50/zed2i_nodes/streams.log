@@ -1,0 +1,14 @@
+[0.008s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes -- -j12 -l12
+[0.050s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o[0m
+[0.180s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+[0.180s]     8 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+[0.180s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.180s] compilation terminated.
+[0.183s] gmake[2]: *** [CMakeFiles/zed_img_node.dir/build.make:76: CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o] Error 1
+[0.184s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zed_img_node.dir/all] Error 2
+[0.184s] gmake[1]: *** Waiting for unfinished jobs....
+[2.453s] [ 75%] [32m[1mLinking CXX executable zed_imu_node[0m
+[2.570s] [ 75%] Built target zed_imu_node
+[2.571s] gmake: *** [Makefile:146: all] Error 2
+[2.573s] Invoked command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes -- -j12 -l12

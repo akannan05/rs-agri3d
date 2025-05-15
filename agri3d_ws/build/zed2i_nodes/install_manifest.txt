@@ -1,0 +1,17 @@
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/lib/zed2i_nodes/zed_imu_node
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/lib/zed2i_nodes/zed_img_node
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/ament_index/resource_index/package_run_dependencies/zed2i_nodes
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/ament_index/resource_index/parent_prefix_path/zed2i_nodes
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/environment/ament_prefix_path.sh
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/environment/ament_prefix_path.dsv
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/environment/path.sh
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/environment/path.dsv
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/local_setup.bash
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/local_setup.sh
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/local_setup.zsh
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/local_setup.dsv
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/package.dsv
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/ament_index/resource_index/packages/zed2i_nodes
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/cmake/zed2i_nodesConfig.cmake
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/cmake/zed2i_nodesConfig-version.cmake
+/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/package.xml

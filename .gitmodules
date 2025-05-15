@@ -1,0 +1,6 @@
+[submodule "agri3d_ws/src/rslidar_sdk"]
+	path = agri3d_ws/src/rslidar_sdk
+	url = https://github.com/RoboSense-LiDAR/rslidar_sdk.git
+[submodule "agri3d_ws/src/rslidar_msg"]
+	path = agri3d_ws/src/rslidar_msg
+	url = https://github.com/RoboSense-LiDAR/rslidar_msg.git

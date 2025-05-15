@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000325] (-) JobUnselected: {'identifier': 'rslidar_msg'}
+[0.000356] (-) JobUnselected: {'identifier': 'rslidar_sdk'}
+[0.000371] (zed2i_nodes) JobQueued: {'identifier': 'zed2i_nodes', 'dependencies': OrderedDict()}
+[0.000780] (zed2i_nodes) JobStarted: {'identifier': 'zed2i_nodes'}
+[0.005949] (zed2i_nodes) JobProgress: {'identifier': 'zed2i_nodes', 'progress': 'cmake'}
+[0.007785] (zed2i_nodes) JobProgress: {'identifier': 'zed2i_nodes', 'progress': 'build'}
+[0.007846] (zed2i_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes', '--', '-j12', '-l12'], 'cwd': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'akannan05', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/akannan05', 'OLDPWD': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3171', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'akannan05', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akannan05', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anirudh-ubuntu:@/tmp/.ICE-unix/2985,unix/anirudh-ubuntu:/tmp/.ICE-unix/2985', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ca38d052_30cd_4b88_b6bf_7a63912aacbe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MJ6O62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.115', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.057837] (zed2i_nodes) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o\x1b[0m\n'}
+[0.059429] (zed2i_nodes) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o\x1b[0m\n'}
+[0.100020] (-) TimerEvent: {}
+[0.200264] (-) TimerEvent: {}
+[0.300523] (-) TimerEvent: {}
+[0.400798] (-) TimerEvent: {}
+[0.501175] (-) TimerEvent: {}
+[0.601464] (-) TimerEvent: {}
+[0.701848] (-) TimerEvent: {}
+[0.802112] (-) TimerEvent: {}
+[0.902470] (-) TimerEvent: {}
+[1.002731] (-) TimerEvent: {}
+[1.102993] (-) TimerEvent: {}
+[1.203383] (-) TimerEvent: {}
+[1.303778] (-) TimerEvent: {}
+[1.404046] (-) TimerEvent: {}
+[1.504353] (-) TimerEvent: {}
+[1.604739] (-) TimerEvent: {}
+[1.705007] (-) TimerEvent: {}
+[1.805298] (-) TimerEvent: {}
+[1.905555] (-) TimerEvent: {}
+[1.938534] (zed2i_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KZedStereoPublisher::\x1b[01;32m\x1b[KZedStereoPublisher\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.938734] (zed2i_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:25:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[Ksl_oc::video::VideoCapture& sl_oc::video::VideoCapture::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const sl_oc::video::VideoCapture&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.938820] (zed2i_nodes) StderrLine: {'line': b'   25 |         cap_ = sl_oc::video::VideoCapture(params\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.938903] (zed2i_nodes) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.938978] (zed2i_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:15\x1b[m\x1b[K:\n'}
+[1.939049] (zed2i_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akannan05/Desktop/zed-open-capture/include/videocapture.hpp:64:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksl_oc::video::VideoCapture& sl_oc::video::VideoCapture::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const sl_oc::video::VideoCapture&)\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[1.939123] (zed2i_nodes) StderrLine: {'line': b'   64 | class SL_OC_EXPORT \x1b[01;36m\x1b[KVideoCapture\x1b[m\x1b[K\n'}
+[1.939192] (zed2i_nodes) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.939262] (zed2i_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akannan05/Desktop/zed-open-capture/include/videocapture.hpp:64:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[Kstd::mutex& std::mutex::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std::mutex&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.939340] (zed2i_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/condition_variable:42\x1b[m\x1b[K,\n'}
+[1.939410] (zed2i_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:18\x1b[m\x1b[K,\n'}
+[1.939479] (zed2i_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24\x1b[m\x1b[K,\n'}
+[1.939551] (zed2i_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[1.939623] (zed2i_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[1.939697] (zed2i_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[1.939770] (zed2i_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:9\x1b[m\x1b[K:\n'}
+[1.939839] (zed2i_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_mutex.h:108:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.939917] (zed2i_nodes) StderrLine: {'line': b'  108 |     mutex& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const mutex&) = delete;\n'}
+[1.939989] (zed2i_nodes) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.940058] (zed2i_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akannan05/Desktop/zed-open-capture/include/videocapture.hpp:64:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[Kstd::mutex& std::mutex::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std::mutex&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.940128] (zed2i_nodes) StderrLine: {'line': b'   64 | class SL_OC_EXPORT \x1b[01;31m\x1b[KVideoCapture\x1b[m\x1b[K\n'}
+[1.940198] (zed2i_nodes) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.940267] (zed2i_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_mutex.h:108:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.940336] (zed2i_nodes) StderrLine: {'line': b'  108 |     mutex& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const mutex&) = delete;\n'}
+[1.940404] (zed2i_nodes) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.940472] (zed2i_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akannan05/Desktop/zed-open-capture/include/videocapture.hpp:64:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[Kstd::thread& std::thread::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std::thread&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.940541] (zed2i_nodes) StderrLine: {'line': b'   64 | class SL_OC_EXPORT \x1b[01;31m\x1b[KVideoCapture\x1b[m\x1b[K\n'}
+[1.940610] (zed2i_nodes) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.940678] (zed2i_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/future:51\x1b[m\x1b[K,\n'}
+[1.940748] (zed2i_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.940824] (zed2i_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[1.940899] (zed2i_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_thread.h:181:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.940972] (zed2i_nodes) StderrLine: {'line': b'  181 |     thread& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const thread&) = delete;\n'}
+[1.941040] (zed2i_nodes) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.005789] (-) TimerEvent: {}
+[2.106052] (-) TimerEvent: {}
+[2.206442] (-) TimerEvent: {}
+[2.306819] (-) TimerEvent: {}
+[2.407200] (-) TimerEvent: {}
+[2.507445] (-) TimerEvent: {}
+[2.607813] (-) TimerEvent: {}
+[2.708200] (-) TimerEvent: {}
+[2.777365] (zed2i_nodes) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable zed_imu_node\x1b[0m\n'}
+[2.808339] (-) TimerEvent: {}
+[2.902297] (zed2i_nodes) StdoutLine: {'line': b'[ 75%] Built target zed_imu_node\n'}
+[2.908498] (-) TimerEvent: {}
+[2.996404] (zed2i_nodes) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/zed_img_node.dir/build.make:76: CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o] Error 1\n'}
+[2.996640] (zed2i_nodes) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zed_img_node.dir/all] Error 2\n'}
+[2.996782] (zed2i_nodes) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.998541] (zed2i_nodes) CommandEnded: {'returncode': 2}
+[3.003903] (zed2i_nodes) JobEnded: {'identifier': 'zed2i_nodes', 'rc': 2}
+[3.008654] (-) TimerEvent: {}
+[3.014547] (-) EventReactorShutdown: {}

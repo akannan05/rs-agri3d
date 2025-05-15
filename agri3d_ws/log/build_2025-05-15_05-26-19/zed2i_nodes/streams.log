@@ -1,0 +1,38 @@
+[0.008s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes -- -j12 -l12
+[0.031s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.176s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.193s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.199s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.251s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.252s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.294s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.333s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.341s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.363s] -- Found image_transport: 5.1.6 (/opt/ros/jazzy/share/image_transport/cmake)
+[0.370s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.377s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:146 (target_link_libraries):
+[0.377s]   The keyword signature for target_link_libraries has already been used with
+[0.377s]   the target "zed_img_node".  All uses of target_link_libraries with a target
+[0.377s]   must be either all-keyword or all-plain.
+[0.377s] 
+[0.377s]   The uses of the keyword signature are here:
+[0.378s] 
+[0.378s]    * CMakeLists.txt:35 (target_link_libraries)
+[0.378s] 
+[0.378s] Call Stack (most recent call first):
+[0.378s]   CMakeLists.txt:45 (ament_target_dependencies)
+[0.378s] 
+[0.378s] [0m
+[0.378s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.438s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.439s] -- Configured cppcheck include dirs: 
+[0.439s] -- Configured cppcheck exclude dirs and/or files: 
+[0.439s] -- Added test 'lint_cmake' to check CMake code style
+[0.439s] -- Added test 'uncrustify' to check C / C++ code style
+[0.439s] -- Configured uncrustify additional arguments: 
+[0.439s] -- Added test 'xmllint' to check XML markup files
+[0.440s] -- Configuring incomplete, errors occurred!
+[0.445s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.447s] Invoked command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes -- -j12 -l12

@@ -1,0 +1,41 @@
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:71:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorCapture[m[K’ in namespace ‘[01m[Ksl_oc::sensors[m[K’ does not name a type
+   71 |     sl_oc::sensors::[01;31m[KSensorCapture[m[K sens_;
+      |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:[m[K In constructor ‘[01m[KZedImuPublisher::[01;32m[KZedImuPublisher[m[K(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:16:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KZedImuPublisher[m[K’ does not have any field named ‘[01m[Ksens_[m[K’
+   16 |         [01;31m[Ksens_[m[K(sl_oc::VERBOSITY::INFO)
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:23:102:[m[K [01;31m[Kerror: [m[Kcall to non-‘[01m[Kconstexpr[m[K’ function ‘[01m[Kdouble rclcpp::Parameter::[01;32m[Kas_double[m[K() const[m[K’
+   23 | ::duration<double(1.0 / [01;31m[Kthis->get_parameter("pub_rate_hz").as_double()[m[K);
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:6[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:149:3:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble rclcpp::Parameter::[01;32m[Kas_double[m[K() const[m[K’ declared here
+  149 |   [01;36m[Kas_double[m[K() const;
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:23:104:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class _Rep, class _Period> class std::chrono::duration[m[K’
+   23 | ::duration<double(1.0 / this->get_parameter("pub_rate_hz").as_double()[01;31m[K)[m[K;
+      |                                                                       [01;31m[K^[m[K
+
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:23:104:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[K(1.0e+0 / rclcpp::Node::get_parameter(const std::string&) const(std::__cxx11::basic_string<char>(((const char*)"pub_rate_hz"), std::allocator<char>())).rclcpp::Parameter::as_double())[m[K’
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:26:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksens_[m[K’ was not declared in this scope
+   26 |         if (![01;31m[Ksens_[m[K.initializeSensors(serial_number_)) {
+      |              [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K:
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:31:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksens_[m[K’ was not declared in this scope
+   31 |       RCLCPP_INFO(get_logger(), "Connected to ZED (SN: %d)", [01;31m[Ksens_[m[K.getSerialNumber());
+      |                                                              [01;31m[K^~~~~[m[K
+
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:[m[K In member function ‘[01m[Kvoid ZedImuPublisher::[01;32m[KpublishImu[m[K()[m[K’:
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:42:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ksens_[m[K’ was not declared in this scope
+   42 |         const auto imu_data = [01;31m[Ksens_[m[K.getLastIMUData(1000);
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:44:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ksl_oc::sensors::data[m[K’ has not been declared
+   44 |         if (imu_data.valid != sl_oc::sensors::[01;31m[Kdata[m[K::Imu::NEW_VAL) {
+      |                                               [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/zed_imu_node.dir/build.make:76: CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zed_imu_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

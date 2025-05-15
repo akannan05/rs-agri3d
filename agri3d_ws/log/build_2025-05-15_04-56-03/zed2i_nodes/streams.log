@@ -1,0 +1,68 @@
+[0.008s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes -- -j12 -l12
+[0.026s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.178s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.193s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.198s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.250s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.251s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.338s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.345s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.367s] -- Found image_transport: 5.1.6 (/opt/ros/jazzy/share/image_transport/cmake)
+[0.374s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.381s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.442s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.442s] -- Configured cppcheck include dirs: 
+[0.442s] -- Configured cppcheck exclude dirs and/or files: 
+[0.442s] -- Added test 'lint_cmake' to check CMake code style
+[0.443s] -- Added test 'uncrustify' to check C / C++ code style
+[0.443s] -- Configured uncrustify additional arguments: 
+[0.443s] -- Added test 'xmllint' to check XML markup files
+[0.443s] -- Configuring done (0.4s)
+[0.452s] -- Generating done (0.0s)
+[0.455s] -- Build files have been written to: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes
+[0.490s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o[0m
+[1.659s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:71:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorCapture[m[K’ in namespace ‘[01m[Ksl_oc::sensors[m[K’ does not name a type
+[1.659s]    71 |     sl_oc::sensors::[01;31m[KSensorCapture[m[K sens_;
+[1.659s]       |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.662s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:[m[K In constructor ‘[01m[KZedImuPublisher::[01;32m[KZedImuPublisher[m[K(const rclcpp::NodeOptions&)[m[K’:
+[1.662s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:16:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KZedImuPublisher[m[K’ does not have any field named ‘[01m[Ksens_[m[K’
+[1.662s]    16 |         [01;31m[Ksens_[m[K(sl_oc::VERBOSITY::INFO)
+[1.662s]       |         [01;31m[K^~~~~[m[K
+[1.663s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:23:102:[m[K [01;31m[Kerror: [m[Kcall to non-‘[01m[Kconstexpr[m[K’ function ‘[01m[Kdouble rclcpp::Parameter::[01;32m[Kas_double[m[K() const[m[K’
+[1.663s]    23 | ::duration<double(1.0 / [01;31m[Kthis->get_parameter("pub_rate_hz").as_double()[m[K);
+[1.663s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.663s] 
+[1.663s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:25[m[K,
+[1.663s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.663s]                  from [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:6[m[K:
+[1.663s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:149:3:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble rclcpp::Parameter::[01;32m[Kas_double[m[K() const[m[K’ declared here
+[1.663s]   149 |   [01;36m[Kas_double[m[K() const;
+[1.663s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.663s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:23:104:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class _Rep, class _Period> class std::chrono::duration[m[K’
+[1.663s]    23 | ::duration<double(1.0 / this->get_parameter("pub_rate_hz").as_double()[01;31m[K)[m[K;
+[1.664s]       |                                                                       [01;31m[K^[m[K
+[1.664s] 
+[1.664s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:23:104:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[K(1.0e+0 / rclcpp::Node::get_parameter(const std::string&) const(std::__cxx11::basic_string<char>(((const char*)"pub_rate_hz"), std::allocator<char>())).rclcpp::Parameter::as_double())[m[K’
+[1.667s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:26:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksens_[m[K’ was not declared in this scope
+[1.667s]    26 |         if (![01;31m[Ksens_[m[K.initializeSensors(serial_number_)) {
+[1.667s]       |              [01;31m[K^~~~~[m[K
+[1.671s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.671s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K:
+[1.671s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:31:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksens_[m[K’ was not declared in this scope
+[1.671s]    31 |       RCLCPP_INFO(get_logger(), "Connected to ZED (SN: %d)", [01;31m[Ksens_[m[K.getSerialNumber());
+[1.671s]       |                                                              [01;31m[K^~~~~[m[K
+[1.671s] 
+[1.680s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:[m[K In member function ‘[01m[Kvoid ZedImuPublisher::[01;32m[KpublishImu[m[K()[m[K’:
+[1.681s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:42:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ksens_[m[K’ was not declared in this scope
+[1.681s]    42 |         const auto imu_data = [01;31m[Ksens_[m[K.getLastIMUData(1000);
+[1.681s]       |                               [01;31m[K^~~~~[m[K
+[1.681s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:44:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ksl_oc::sensors::data[m[K’ has not been declared
+[1.681s]    44 |         if (imu_data.valid != sl_oc::sensors::[01;31m[Kdata[m[K::Imu::NEW_VAL) {
+[1.681s]       |                                               [01;31m[K^~~~[m[K
+[2.271s] gmake[2]: *** [CMakeFiles/zed_imu_node.dir/build.make:76: CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o] Error 1
+[2.271s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zed_imu_node.dir/all] Error 2
+[2.272s] gmake: *** [Makefile:146: all] Error 2
+[2.274s] Invoked command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes -- -j12 -l12

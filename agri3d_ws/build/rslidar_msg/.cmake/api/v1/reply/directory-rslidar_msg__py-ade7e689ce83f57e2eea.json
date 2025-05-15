@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rslidar_msg__py",
+		"source" : "/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/rslidar_msg/rslidar_msg__py"
+	}
+}

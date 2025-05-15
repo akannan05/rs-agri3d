@@ -1,0 +1,56 @@
+[0.008s] Invoking command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes -- -j12 -l12
+[0.027s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.170s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.185s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.190s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.205s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.241s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.242s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.289s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.328s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.335s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.357s] -- Found image_transport: 5.1.6 (/opt/ros/jazzy/share/image_transport/cmake)
+[0.365s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.372s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.433s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.433s] -- Configured cppcheck include dirs: 
+[0.433s] -- Configured cppcheck exclude dirs and/or files: 
+[0.433s] -- Added test 'lint_cmake' to check CMake code style
+[0.433s] -- Added test 'uncrustify' to check C / C++ code style
+[0.434s] -- Configured uncrustify additional arguments: 
+[0.434s] -- Added test 'xmllint' to check XML markup files
+[0.434s] -- Configuring done (0.4s)
+[0.445s] -- Generating done (0.0s)
+[0.448s] -- Build files have been written to: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes
+[0.478s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o[0m
+[0.483s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o[0m
+[2.345s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:63:19:[m[K [01;31m[Kerror: [m[K‘[01m[KVideoCapture[m[K’ in namespace ‘[01m[Ksl_oc::video[m[K’ does not name a type
+[2.345s]    63 |     sl_oc::video::[01;31m[KVideoCapture[m[K cap_;
+[2.345s]       |                   [01;31m[K^~~~~~~~~~~~[m[K
+[2.351s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:[m[K In constructor ‘[01m[KZedStereoPublisher::[01;32m[KZedStereoPublisher[m[K()[m[K’:
+[2.351s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap_[m[K’ was not declared in this scope
+[2.351s]    22 |         [01;31m[Kcap_[m[K = sl_oc::video::VideoCapture(params);
+[2.351s]       |         [01;31m[K^~~~[m[K
+[2.351s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:22:30:[m[K [01;31m[Kerror: [m[K‘[01m[KVideoCapture[m[K’ is not a member of ‘[01m[Ksl_oc::video[m[K’; did you mean ‘[01m[Kcv::VideoCapture[m[K’?
+[2.352s]    22 |         cap_ = sl_oc::video::[01;31m[KVideoCapture[m[K(params);
+[2.352s]       |                              [01;31m[K^~~~~~~~~~~~[m[K
+[2.352s] In file included from [01m[K/usr/include/opencv4/opencv2/highgui.hpp:51[m[K,
+[2.352s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:68[m[K,
+[2.352s]                  from [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:9[m[K:
+[2.352s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:682:20:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::VideoCapture[m[K’ declared here
+[2.352s]   682 | class CV_EXPORTS_W [01;36m[KVideoCapture[m[K
+[2.352s]       |                    [01;36m[K^~~~~~~~~~~~[m[K
+[2.357s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:[m[K In member function ‘[01m[Kvoid ZedStereoPublisher::[01;32m[Kpublish_frames[m[K()[m[K’:
+[2.357s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:37:29:[m[K [01;31m[Kerror: [m[K‘[01m[KFrame[m[K’ in namespace ‘[01m[Ksl_oc::video[m[K’ does not name a type
+[2.357s]    37 |         const sl_oc::video::[01;31m[KFrame[m[K frame = cap_.getLastFrame();
+[2.357s]       |                             [01;31m[K^~~~~[m[K
+[2.363s] [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:38:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+[2.363s]    38 |         if ([01;31m[Kframe[m[K.data != nullptr) {
+[2.363s]       |             [01;31m[K^~~~~[m[K
+[3.225s] [ 75%] [32m[1mLinking CXX executable zed_imu_node[0m
+[3.351s] [ 75%] Built target zed_imu_node
+[3.402s] gmake[2]: *** [CMakeFiles/zed_img_node.dir/build.make:76: CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o] Error 1
+[3.403s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zed_img_node.dir/all] Error 2
+[3.403s] gmake: *** [Makefile:146: all] Error 2
+[3.404s] Invoked command in '/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes -- -j12 -l12

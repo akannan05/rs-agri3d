@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable zed_imu_node[0m
+[ 75%] Built target zed_imu_node

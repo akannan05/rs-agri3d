@@ -1,0 +1,26 @@
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:63:19:[m[K [01;31m[Kerror: [m[K‘[01m[KVideoCapture[m[K’ in namespace ‘[01m[Ksl_oc::video[m[K’ does not name a type
+   63 |     sl_oc::video::[01;31m[KVideoCapture[m[K cap_;
+      |                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:[m[K In constructor ‘[01m[KZedStereoPublisher::[01;32m[KZedStereoPublisher[m[K()[m[K’:
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap_[m[K’ was not declared in this scope
+   22 |         [01;31m[Kcap_[m[K = sl_oc::video::VideoCapture(params);
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:22:30:[m[K [01;31m[Kerror: [m[K‘[01m[KVideoCapture[m[K’ is not a member of ‘[01m[Ksl_oc::video[m[K’; did you mean ‘[01m[Kcv::VideoCapture[m[K’?
+   22 |         cap_ = sl_oc::video::[01;31m[KVideoCapture[m[K(params);
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/highgui.hpp:51[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:9[m[K:
+[01m[K/usr/include/opencv4/opencv2/videoio.hpp:682:20:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::VideoCapture[m[K’ declared here
+  682 | class CV_EXPORTS_W [01;36m[KVideoCapture[m[K
+      |                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:[m[K In member function ‘[01m[Kvoid ZedStereoPublisher::[01;32m[Kpublish_frames[m[K()[m[K’:
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:37:29:[m[K [01;31m[Kerror: [m[K‘[01m[KFrame[m[K’ in namespace ‘[01m[Ksl_oc::video[m[K’ does not name a type
+   37 |         const sl_oc::video::[01;31m[KFrame[m[K frame = cap_.getLastFrame();
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_img_publisher.cpp:38:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+   38 |         if ([01;31m[Kframe[m[K.data != nullptr) {
+      |             [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/zed_img_node.dir/build.make:76: CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zed_img_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,9 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o[0m
+In file included from [01m[K/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes/src/zed_imu_publisher.cpp:10[m[K:
+[01m[K/home/akannan05/Desktop/zed-open-capture/include/sensorcapture.hpp:34:10:[m[K [01;31m[Kfatal error: [m[Khidapi.h: No such file or directory
+   34 | #include [01;31m[K"hidapi.h"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/zed_imu_node.dir/build.make:76: CMakeFiles/zed_imu_node.dir/src/zed_imu_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zed_imu_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,24 @@
+[ 50%] Built target zed_imu_node
+[ 75%] [32mBuilding CXX object CMakeFiles/zed_img_node.dir/src/zed_img_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable zed_img_node[0m
+[100%] Built target zed_img_node
+-- Install configuration: ""
+-- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/lib/zed2i_nodes/zed_imu_node
+-- Set non-toolchain portion of runtime path of "/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/lib/zed2i_nodes/zed_imu_node" to ""
+-- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/lib/zed2i_nodes/zed_img_node
+-- Set non-toolchain portion of runtime path of "/home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/lib/zed2i_nodes/zed_img_node" to ""
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/ament_index/resource_index/package_run_dependencies/zed2i_nodes
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/ament_index/resource_index/parent_prefix_path/zed2i_nodes
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/environment/ament_prefix_path.sh
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/environment/path.sh
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/environment/path.dsv
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/local_setup.bash
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/local_setup.sh
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/local_setup.zsh
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/local_setup.dsv
+-- Installing: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/package.dsv
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/ament_index/resource_index/packages/zed2i_nodes
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/cmake/zed2i_nodesConfig.cmake
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/cmake/zed2i_nodesConfig-version.cmake
+-- Up-to-date: /home/akannan05/Desktop/rs-agri3d/agri3d_ws/install/zed2i_nodes/share/zed2i_nodes/package.xml

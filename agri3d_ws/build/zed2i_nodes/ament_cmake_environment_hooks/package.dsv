@@ -1,0 +1,4 @@
+source;share/zed2i_nodes/local_setup.bash
+source;share/zed2i_nodes/local_setup.dsv
+source;share/zed2i_nodes/local_setup.sh
+source;share/zed2i_nodes/local_setup.zsh

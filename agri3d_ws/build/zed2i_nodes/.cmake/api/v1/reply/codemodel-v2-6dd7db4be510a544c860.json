@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a2f86dfb324d67c018fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed2i_nodes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f7c861b10e5f3f5292b6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed2i_nodes_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed2i_nodes_uninstall-66dbcdc57d5644dd7b4a.json",
+					"name" : "zed2i_nodes_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_img_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_img_node-6b4eddd0cc1e263f4647.json",
+					"name" : "zed_img_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_imu_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_imu_node-a23bd09037420cafb9a6.json",
+					"name" : "zed_imu_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/akannan05/Desktop/rs-agri3d/agri3d_ws/build/zed2i_nodes",
+		"source" : "/home/akannan05/Desktop/rs-agri3d/agri3d_ws/src/zed2i_nodes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
