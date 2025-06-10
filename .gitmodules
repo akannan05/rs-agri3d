@@ -10,3 +10,6 @@
 [submodule "agri3d_ws/src/zed-ros2-wrapper"]
 	path = agri3d_ws/src/zed-ros2-wrapper
 	url = https://github.com/stereolabs/zed-ros2-wrapper
+[submodule "agri3d_ws/src/ros2_camera_lidar_fusion"]
+	path = agri3d_ws/src/ros2_camera_lidar_fusion
+	url = https://github.com/CDonosoK/ros2_camera_lidar_fusion.git
