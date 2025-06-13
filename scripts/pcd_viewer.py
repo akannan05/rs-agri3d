@@ -3,7 +3,6 @@
 
 import open3d as o3d
 
-# === Define your PCD path here ===
 pcd_path = "dense_filtered_pointcloud.pcd"
 
 # Load the point cloud
@@ -18,7 +17,6 @@ vis = o3d.visualization.Visualizer()
 vis.create_window(window_name='PCD Viewer', width=1280, height=720)
 vis.add_geometry(pcd)
 
-# Set view options (optional)
 opt = vis.get_render_option()
 opt.point_size = 2.0  # Adjust for density
 opt.background_color = [0, 0, 0]  # Black background
@@ -26,9 +24,6 @@ opt.background_color = [0, 0, 0]  # Black background
 # Run the visualizer
 print("Press 's' to save a screenshot, 'q' to quit.")
 vis.run()
-
-# Save screenshot automatically after rendering (optional)
-# vis.capture_screen_image("screenshot.png")
 
 vis.destroy_window()
 
